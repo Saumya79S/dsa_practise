@@ -4,7 +4,7 @@ using namespace std;
 int main(){
   vector<int> arr={43,5,23,64,12,76,34,87,90};
   int n=arr.size();
-  for(int i=0; i<n; i++){
+  for(int i=0; i<n-1; i++){
    int temp=i;
    int mini=arr[i];
    for(int j=i+1; j<n ; j++){
